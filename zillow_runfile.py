@@ -40,7 +40,7 @@ import Zillow.zillow_functions as zl
 st = zl.zipcodes_list(st_items = ["100", "770"])
 
 # Initialize the webdriver.
-driver = zl.init_driver("C:/Users/username/chromedriver.exe")
+driver = zl.init_driver("/Users/patrickharris/desktop/executables/chromedriver.exe")
 
 # Go to www.zillow.com/homes
 zl.navigate_to_website(driver, "http://www.zillow.com/homes")
